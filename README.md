@@ -1,10 +1,10 @@
-# test
-test
-# Input from the user
-num = int(input("Enter a number: "))
+# This program adds two numbers
 
-# Check if the number is even or odd
-if num % 2 == 0:
-    print(f"{num} is Even")
-else:
-    print(f"{num} is Odd")
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
